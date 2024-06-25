@@ -1,0 +1,9 @@
+﻿@model List<Crewin_Task.Models.Category>
+
+<h1>Kategoriler</h1>
+<ul>
+    @foreach (var category in Model)
+    {
+        <li><a href="/Product/Category?name=@category.Slug">@category.Name</a></li>
+    }
+</ul>

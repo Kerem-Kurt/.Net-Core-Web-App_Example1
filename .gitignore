@@ -1,0 +1,19 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.rsuser
+*.rsbak
+*.sln.docstates
+
+# Other
+.DS_Store
+Thumbs.db
