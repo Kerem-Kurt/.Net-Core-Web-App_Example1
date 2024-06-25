@@ -11,3 +11,33 @@
     <img src="https://github.com/Kerem-Kurt/.Net-Core-Web-App_Example1/assets/121832450/99d69f1c-cba8-4186-8c9e-df2c6461dd6e" alt="Category1" width="350">
     <img src="https://github.com/Kerem-Kurt/.Net-Core-Web-App_Example1/assets/121832450/8a1011e5-f5bd-42c7-a3a9-1afe940f899d" alt="Category2" width="350">
 </div>
+
+## Project Structure 
+```plaintext
+CrewinTask
+│
+├── Controllers
+│   ├── ProductController.cs
+│   └── HomeController.cs
+│
+├── Models
+│   ├── Product.cs
+│   └── Category.cs
+│
+├── Services
+│   └── ProductService.cs
+│
+├── Views
+│   ├── Product
+│   │   ├── Index.cshtml
+│   │   └── Category.cshtml
+│   ├── Home
+│   │   ├── Index.cshtml
+│   │   └── Privacy.cshtml
+│
+├── wwwroot
+│
+├── appsettings.json
+│
+├── Program.cs
+```
